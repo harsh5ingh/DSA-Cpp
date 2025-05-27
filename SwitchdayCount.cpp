@@ -31,7 +31,7 @@ int main() {
         cout <<  "Sunday";
         break;
         default:
-        cout << "Invalid";
+        cout << "Invalid days";
 
    }
    cout << " Check";
