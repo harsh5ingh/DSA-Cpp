@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
   int n;
-  int sum = 0;
+  int OddSum = 0;
   cout << "Enter the Number: ";
   cin >> n;
 
@@ -14,9 +14,9 @@ int main()
   {
     if (i % 2 != 0)
     {
-      sum += i;
+      OddSum += i;
     }
   }
-  cout << "Sum: " << sum << endl;
+  cout << "Sum of Odd No. : " << OddSum << endl;
   return 0;
 }
