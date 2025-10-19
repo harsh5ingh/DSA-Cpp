@@ -2,10 +2,22 @@
 using namespace std;
 
 int main(){
-  int x = 10;
-  for ( int i = 0; i < x; i++)
+  int x = 5;
+  int y = x-1;
+  for ( int i = 0; i <= x; i++)
   {
-    /* code */
-  }
+    for (int j = 0; i <= y; j++)
+    {
+    
+    cout << "*";
+
+    if (x <= 5 & y <= x-1)
+    {
+      break;
+    }
+    
+  }}
+  cout << endl ;
+  return 0;
   
 }
