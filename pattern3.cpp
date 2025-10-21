@@ -13,7 +13,7 @@ int main()
     for (int j = 1; j <=i; j++) // inner loop
     {
       cout << j;
-      //j+=1;
+      // j+=1;
     }
     cout << endl;
   }
