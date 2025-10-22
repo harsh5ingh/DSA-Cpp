@@ -3,16 +3,16 @@ using namespace std;
 
 int main()
 {
-  int n = 3;
+  int n;
  // int sum;
-  //cin >> n;
+  cin >> n;
 
   for (int i = 1; i <= n; i++) // outer loop
   {
 
     for (int j = 1; j <=i; j++) // inner loop
     {
-      cout << j;
+      cout << j << " ";
       // j+=1;
     }
     cout << endl;
