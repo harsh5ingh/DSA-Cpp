@@ -1,17 +1,17 @@
 #include <iostream>
 using namespace std;
 
-
 // Function Defination
 
-void printHello()
+/* void printHello()
 {
   cout << "hello\n";
-}
+} */
 
 // sum of 2 numbers
 
-double sum(double a, double b) {
+double sum(double a, double b)
+{
   double s = a + b;
   return s;
 }
@@ -19,8 +19,8 @@ double sum(double a, double b) {
 int main()
 {
   // Function Call/Invoke
-  printHello();
+ // printHello();
 
-  cout<<sum(5.56,6.23)<<endl;
+  cout << sum(5.56, 6.23) << endl;
   return 0;
 }
