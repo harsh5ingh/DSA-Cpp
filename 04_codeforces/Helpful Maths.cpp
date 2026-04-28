@@ -2,19 +2,24 @@
 #include <algorithm>
 using namespace std;
 
-int main() {
+int main()
+{
     string s;
     cin >> s;
 
     sort(s.begin(), s.end());
 
-    for (int i = 0; i < s.length(); i++) {
-        if (s[i] != '+') {
+    for (int i = 0; i < s.length(); i++)
+    {
+        if (s[i] != '+')65
+        {
             cout << s[i];
 
             // check if any number still remains ahead
-            for (int j = i + 1; j < s.length(); j++) {
-                if (s[j] != '+') {
+            for (int j = i + 1; j < s.length(); j++)
+            {
+                if (s[j] != '+')
+                {
                     cout << "+";
                     break;
                 }
