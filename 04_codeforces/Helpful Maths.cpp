@@ -11,7 +11,7 @@ int main()
 
     for (int i = 0; i < s.length(); i++)
     {
-        if (s[i] != '+')65
+        if (s[i] != '+')
         {
             cout << s[i];
 

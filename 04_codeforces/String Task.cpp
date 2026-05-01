@@ -6,15 +6,18 @@ using namespace std;
 int main(){
   string s;
   cin >> s;
+  string result = "";
   for (int i = 0; i < s.length(); i++)
   {
     char c = tolower(s[i]);
-     result = [a,e,i,o,u];
-    if (result += c)
+    if (c != 'a' && c != 'e' && c != 'i' && c != 'o' && c != 'y' && c != 'u' )
     {
-      /* code */
-    }
+      result += ".";
+      result += c;
     
   }
+}
+
+  cout << result;
 
 }
